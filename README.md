@@ -34,16 +34,4 @@ Mobile-use is a powerful, open-source AI agent that controls your Android or IOS
 
     Then, edit `llm-config.override.jsonc` to fit your needs.
 
-    You can also use local LLMs or any other openai-api compatible providers :
-
-    1. Set `OPENAI_BASE_URL` and `OPENAI_API_KEY` in your `.env`
-    2. In your `llm-config.override.jsonc`, set `openai` as the provider for the agent nodes you want, and choose a model supported by your provider.
-
-    > [!NOTE]
-    > If you want to use Google Vertex AI, you must either:
-    >
-    > - Have credentials configured for your environment (gcloud, workload identity, etc…)
-    > - Store the path to a service account JSON file as the GOOGLE_APPLICATION_CREDENTIALS environment variable
-    >
-
-
+    
